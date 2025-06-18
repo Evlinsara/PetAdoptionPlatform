@@ -36,17 +36,17 @@ At Pawfect Match, we believe every animal deserves a chance at love and a foreve
       </section>
 
       <div className='why'>
-        <h2>Why Choose Pawfect Match?</h2>
+        <h2><i>Why Choose Pawfect Match?</i></h2>
         <p>
-          Save a life and gain a loyal best friend
+          Did you know that over 2000 people per hour in India run a search right here looking to adopt a pet? Pet adoption is becoming the preferred way to find a new pet. Adoption will always be more convenient than buying a puppy for sale from a pet shop or finding a kitten for sale from a litter. Pet adoption brings less stress and more savings! So what are you waiting for? Go find that perfect pet for home! Save a life and gain a loyal best friend
  Browse real stories and photos of pets waiting to be loved
 
  All pets are vet-checked, vaccinated, and adoption-ready
         </p>
-        <h3> What You'll Find Here</h3>
+        <h3><i> What You'll Find Here</i></h3>
         <p> Easy-to-navigate listings by pet type, age, and location
 
-Helpful resources to prepare your home and heart
+Helpful resources to prepare your home and heart. The rescue or pet parents will walk you through their adoption process. Prepare your home for the arrival of your fur baby to help them adjust to their new family
 
  A community that supports ethical, responsible adoption</p>
 
@@ -54,14 +54,15 @@ Helpful resources to prepare your home and heart
 
       <section className="offerings">
         <h2>Need a Companion?</h2>
-        <Link to="/Cat"><button>CATS</button></Link>
-        <Link to="/Dog"><button>DOGS</button></Link>
-        {/* <Link to="/civil"><button>CIVIL</button></Link> */}
+
+        <Link to="/Cat"><button className="heart-button"><span>🐱 CATS</span></button></Link>
+        <Link to="/Dog"><button className="heart-button"><span>🐶 DOGS</span></button></Link>
+
       </section>
 
       <footer className="footer">
         <span>&copy;Pawfect match</span>
-        <a href="https://www.instagram.com/amtmindia/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9V4NGi4jiLPvEtqcMH5AkQRSsyJ77UaJjDQ&s" alt="Instagram" /></a>
+        <a href="https://www.instagram.com/amtmindia/"><img src="https://i.pinimg.com/originals/21/d6/7f/21d67f1d6b3be5bb2e39395311c77fc6.jpg" alt="Instagram" /></a>
         <a href="https://www.facebook.com/amtmindia"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png" alt="Facebook" /></a>
         <a href="https://x.com/amtmindia"><img src="https://freepnglogo.com/images/all_img/1725374683twitter-x-logo.png" alt="Twitter" /></a>
       </footer>
