@@ -9,6 +9,7 @@
   background-color: black;
   color: white;
   padding: 20px;
+ 
 }
 
 .about-header h1 {
@@ -36,9 +37,10 @@
 
 .about-content img {
   width: 100%;
-  max-width: 700px;
+  max-width: 300px;
   display: block;
   margin: 0 auto 20px;
+  margin-top: 0px;
 }
 
 .about-content p {
@@ -49,6 +51,8 @@
   text-align: justify;
 }
 .about-content h2{
+  margin-top: 20px;
+  margin-bottom: 20px;
   color: rgb(226, 163, 47);
   text-align: center;
 }
