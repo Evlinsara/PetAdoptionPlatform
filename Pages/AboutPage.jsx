@@ -13,12 +13,12 @@ function AboutPage() {
                 <Link to="/"><button>Home</button></Link>
                 <Link to="/about"><button>About</button></Link>
                 <Link to="/contact"><button>Contact</button></Link>
-                <Link to="/rank"><button>Rank</button></Link>
+                <Link to="/SignUp"><button>Login</button></Link>
               </nav>
             </header>
 
       <div className="about-content">
-        <img src="https://amtmindia.org/wp-content/uploads/2024/09/17.png" alt="Campus" />
+        <img src="https://dm6g3jbka53hp.cloudfront.net/static-images/adopt-me-pet-02032021.jpg" alt="Campus" />
         <h2><i>Giving Voiceless Animals a Second Chance at Life</i></h2>
         <p><i>Pawfect Match is a non-profit organization dedicated to the rescue, care, and rehabilitation of injured, stray, and abandoned animals across India. Since our inception, we have been at the forefront of providing medical assistance, shelter, and lifelong support to animals who have no other means of survival. From neutering to vaccination drives and emergency rescue operations, our team is committed to ensuring the welfare and dignity of animals that have no voice of their own. Every animal we save is a life that matters to us. Pawfect Match has been proudly awarded the Certificate of Membership by the Federation of Indian Animal Protection Organisations (FIAPO). This recognition highlights our unwavering commitment to the animal protection movement and our dedication to creating a safer and more compassionate world for animals. By joining hands with FIAPO, we continue to strive for impactful changes in animal welfare.</i></p>
       </div>
